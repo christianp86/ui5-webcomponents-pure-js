@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--<script type='module' src='node_modules/@ui5/webcomponents/dist/Button.js'></script>-->
-    <script type='module' src='app.js'></script>
+    <script type='module' src='src/app.js'></script>
 </head>
 
 <body>
@@ -31,6 +31,15 @@
             <ui5-table-column slot="columns">
                 <span style="line-height: 1.4rem">Price</span>
             </ui5-table-column>
+            <template id="productrow">
+                <ui5-table-row>
+                    <ui5-table-cell></ui5-table-cell>
+                    <ui5-table-cell></ui5-table-cell>
+                    <ui5-table-cell></ui5-table-cell>
+                    <ui5-table-cell></ui5-table-cell>
+                    <ui5-table-cell></ui5-table-cell>
+                </ui5-table-row>
+            </template>
         </ui5-table>
     </div>
     <div>
