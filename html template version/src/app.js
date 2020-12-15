@@ -17,16 +17,17 @@ fetch("./data/products.json")
 
 function importData() {
     const table = document.getElementById('table')
+    const template = document.querySelector('#productrow')
 
     products.forEach(product => {
-        const tableRow = document.createElement('ui5-table-row')
-
+        const clone = template.content.cloneNode(true)
+        const tableCells = clone.querySelectorAll('ui5-table-cell')
+        let counter = 0
         for (const [key, value] of Object.entries(product)) {
-            const tableCell = document.createElement('ui5-table-cell')
-            tableCell.innerHTML = value
-            tableRow.appendChild(tableCell)
+            tableCells[counter].innerHTML = value
+            counter++
         }
-        table.appendChild(tableRow)
+        table.appendChild(clone)
     });
 }
 
