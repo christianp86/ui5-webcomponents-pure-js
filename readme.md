@@ -1,6 +1,14 @@
 # Using UI5 Webcomponents w/o any framework
 
-This is a pure "academic" project to get a better understanding of how to use [UI5 webcomponents](https://sap.github.io/ui5-webcomponents/) usign pure vanilla javascript.
+This is a pure "academic" project to get a better understanding of how to use [UI5 webcomponents](https://sap.github.io/ui5-webcomponents/) without any framework such as React, Angular or Vue.
+
+Currently I have the following versions
+| Folder          | Content description                                                                                                           |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [Initial Version](Initial%20version/) | First try getting things working. Mix of HTML tags and JavaScript. Declaration and logic mixed up in JS |
+|                                       |                                                                                                         |
+|                                       |                                                                                                         |
+
 
 ## How to run the project
 
@@ -9,6 +17,7 @@ npm run start will start a [Web Dev Server](https://modern-web.dev/docs/dev-serv
 
 ```bash
 git clone
+cd FOLDER
 npm install
 npm run start
 ```
