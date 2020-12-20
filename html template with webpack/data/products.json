@@ -1,0 +1,79 @@
+[
+    {
+        "Product": "Notebook Basic 15HT-1000",
+        "Supplier": "Very Best Screens",
+        "Dimensions": "30 x 18 x 3cm",
+        "Weight": "4.2KG",
+        "Price": "956EUR"
+    },
+    {
+        "Product": "Notebook Basic 17HT-1001",
+        "Supplier": "Very Best Screens",
+        "Dimensions": "29 x 17 x 3.1cm",
+        "Weight": "4.5KG",
+        "Price": "1249EUR"
+    },
+    {
+        "Product": "Notebook Basic 18HT-1002",
+        "Supplier": "Very Best Screens",
+        "Dimensions": "28 x 19 x 2.5cm",
+        "Weight": "4.2KG",
+        "Price": "1570EUR"
+    },
+    {
+        "Product": "Notebook Basic 19HT-1003",
+        "Supplier": "Smartcards",
+        "Dimensions": "32 x 21 x 4cm",
+        "Weight": "4.2KG",
+        "Price": "1650EUR"
+    },
+    {
+        "Product": "ITelO VaultHT-1007",
+        "Supplier": "Technocom",
+        "Dimensions": "32 x 22 x 3cm",
+        "Weight": "0.2KG",
+        "Price": "299EUR"
+    },
+    {
+        "Product": "Notebook Professional 15HT-1010",
+        "Supplier": "Very Best Screens",
+        "Dimensions": "33 x 20 x 3cm",
+        "Weight": "4.3KG",
+        "Price": "1999EUR"
+    },
+    {
+        "Product": "Notebook Professional 17HT-1011",
+        "Supplier": "Very Best Screens",
+        "Dimensions": "33 x 23 x 2cm",
+        "Weight": "4.1KG",
+        "Price": "2299EUR"
+    },
+    {
+        "Product": "ITelO Vault NetHT-1020",
+        "Supplier": "Technocom",
+        "Dimensions": "10 x 1.8 x 17cm",
+        "Weight": "0.16KG",
+        "Price": "459EUR"
+    },
+    {
+        "Product": "ITelO Vault SATHT-1021",
+        "Supplier": "Technocom",
+        "Dimensions": "11 x 1.7 x 18cm",
+        "Weight": "0.18KG",
+        "Price": "149EUR"
+    },
+    {
+        "Product": "Comfort EasyHT-1022",
+        "Supplier": "Technocom",
+        "Dimensions": "84 x 1.5 x 14cm",
+        "Weight": "0.2KG",
+        "Price": "1679EUR"
+    },
+    {
+        "Product": "Comfort SeniorHT-1023",
+        "Supplier": "Technocom",
+        "Dimensions": "80 x 1.6 x 13cm",
+        "Weight": "0.8KG",
+        "Price": "512EUR"
+    }
+]
