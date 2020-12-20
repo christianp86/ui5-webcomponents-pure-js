@@ -7,6 +7,7 @@ Currently I have the following versions
 |--------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [Initial Version](Initial%20version/)      | First try getting things working. Mix of HTML tags and JavaScript. Declaration and logic mixed up in JS |
 | [HTML Template](html%20template%20version/)| Use template tag to define row and cells in HTML. JS only contains logic. Kudos to [Peter Müssig](https://github.com/petermuessig)|
+| [HTML Template with WebPack](html%20template%20with%20%20webpack)| Bundle html template version with [Webpack](https://github.com/webpack)|
 
 
 ## How to run the project
@@ -29,3 +30,4 @@ I will further explore ui5 webcomponents and combine it with webpack.
 
  - [UI5 Webcomponents](https://sap.github.io/ui5-webcomponents/)
  - [Web Dev Server](https://modern-web.dev/docs/dev-server/overview/)
+ - [Webpack](https://webpack.js.org/)
