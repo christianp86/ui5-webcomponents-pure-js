@@ -71,6 +71,8 @@ Nothing fancy here. We declare a table and create the columns. No table rows or 
 ```
 
 Yes we did it! We used the ui5 web components successfully in our html page. Or did we?
+![where-is-my-ui5-table](./images/1%20where%20is%20my%20ui5%20table.png)
+
 Well we are not there yet. Just because there is a tag does not mean the browser knows what to with it.
 We have to let the browser know the tag and how what should be rendered (UI5 and fiori style please).
 
@@ -101,13 +103,13 @@ We also create a new file index.js and add the import statements in there. Nothi
 <body>
 ...
 </table>
-<script type="module" src="./index.js"></script>
+<script type="module" src="./src/index.js"></script>
 </body>
 ```
 
 Finally! We are ready to see our beautiful ui5 table any seconds now...
 
-!ADD IMAGE HERE
+![where-is-my-ui5-table](./images/2-where-is-my-ui5-table.png)
 
 WHAAAATTTT?
 
@@ -136,7 +138,7 @@ Now all that's left todo is to run the command and see the "magic happen" :satis
 npm run start
 ```
 
-!ADD IMAGE HERE
+![there-is-my-ui5-table](./images/3-there-is-my-ui5-table.png)
 
 Jippie we finally see our empty table :wink: . It seems like a bit of effort but once you got the basics setup you are prepared for implementing the real thing.
 And we already learned a lot on our little journey
@@ -151,14 +153,3 @@ And we already learned a lot on our little journey
  If you can't wait for my next blog post just visit the [GitHub Repository](https://github.com/christianp86/ui5-webcomponents-pure-js)
 
  P.S. This is my first every blog post on the SAP community. Feel free to provide feedback via the comments. Or just like it in case you enjoyed reading.
-## How to run the project
-
-npm run start will start a [Web Dev Server](https://modern-web.dev/docs/dev-server/overview/) instance and open index.html in your browser.
-[Web Dev Server](https://modern-web.dev/docs/dev-server/overview/) is added as dev dependency only.
-
-```bash
-git clone
-cd "initial version"
-npm install
-npm run start
-```
