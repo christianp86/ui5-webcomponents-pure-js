@@ -1,10 +1,18 @@
 # Using UI5 Webcomponents w/o any framework
 
 This is a pure "academic" project to get a better understanding of how to use [UI5 webcomponents](https://sap.github.io/ui5-webcomponents/) without any framework such as React, Angular or Vue.
+My goal is to create blog series during which we will cover following topics
+ * Getting started with UI5 webcomponents
+ * Enhancing our example using <template> tag
+ * Let´s create a bundle using webpack
+ * I hate todo lists, so we create a shopping list example :wink:
+ * Additional topics such as i18n, theming and create your own ui5 web components
 
-## Initial version
-This version is something I hacked together during SAP TechEd 2020. I wanted to get a first understanding how ui5 web components can be used.
-The [blog post](https://blogs.sap.com/2020/12/02/beyond-sapui5-and-sap-fiori-elements-appendix-to-teched-session-iis114/?source=social-Global-SAPdevs-TWITTER-MarketingCampaign-Developers-Fiori-spr-4273717682&campaigncode=CRM-XB20-MKT-DGEALL) from [Marius Obert](https://github.com/IObert) made me curios but I am not much familiar with react, angular or vue. In 2020 I started re-learning the basic and more advanced concepts of HTML and JS to get a better understanding of web development these days. I am more a hands-on person #HandsOnSAPDev and I get an itch to start building stuff once I understand (or think I understand :wink:) the basic concepts.
+# Getting started with UI5 webcomponents 
+ 
+## First baby steps
+This blog is a result of something I hacked together during SAP TechEd 2020. I wanted to get a first understanding how ui5 webcomponents work and how I can use them.
+The excellent [blog post](https://blogs.sap.com/2020/12/02/beyond-sapui5-and-sap-fiori-elements-appendix-to-teched-session-iis114/?source=social-Global-SAPdevs-TWITTER-MarketingCampaign-Developers-Fiori-spr-4273717682&campaigncode=CRM-XB20-MKT-DGEALL) from [Marius Obert](https://github.com/IObert) made me curios but as I am not much familiar with react, angular or vue, I wanted to keep things simple. In 2020 I started re-learning the basic and more advanced concepts of HTML and JS to get a better understanding of web development these days. I am more a hands-on person #HandsOnSAPDev and I get an itch to start building stuff once I understand (or think I understand :wink:) the basic concepts.
 
 What we will do in this first blog is to create simple webapp that will contain a ui5 table and button.
 The button will trigger displaying data in our table.
@@ -17,14 +25,14 @@ So let's get our hands dirty by initializing our project using [npm](https://www
 ```sh
 mkdir ui5-webcomponents-wo-frk
 cd ui5-webcomponents-wo-frk
-npm init
+npm init -y
 ```
 
-We will create an html and a javascript file to keep things separate. Things meaning describing the content of the webapp and the actual logic.
+We will create an html and a javascript file to keep things separate. By things I mean describing the form of the content (HTML) and the actual logic (JavaScript).
 
 Before that we should actually know how we can create a ui5 webcomponent. Looking at the [official documentation](https://sap.github.io/ui5-webcomponents/playground/docs/how-to-use/#create) there are two ways to create a ui5 web components instance:
 * Using html tags defined by the webcomponent
-* Using the js dom api [createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+* Using the html dom api [createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
 
 Alright let's do that and create our html file. To speed things up I copied the table from the official documentation :wink: .
 
