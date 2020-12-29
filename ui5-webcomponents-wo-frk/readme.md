@@ -4,7 +4,7 @@ This is a pure "academic" project to get a better understanding of how to use [U
 My goal is to create blog series during which we will cover following topics
  * Getting started with UI5 Web Components
  * Enhancing our example using `<template>` tag
- * Let´s create a bundle using webpack
+ * Let´s create a bundle
  * I hate todo lists, so we create a shopping list example :wink:
  * Additional topics such as i18n, theming and create your own UI5 Web Components
 
