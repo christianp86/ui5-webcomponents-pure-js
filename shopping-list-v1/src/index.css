@@ -1,0 +1,8 @@
+.list-shopping-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #b3b3b3;
+    box-sizing: border-box;
+}

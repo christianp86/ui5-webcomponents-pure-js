@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>UI5 Webcomponents w/o Framework</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+    <div>
+        <ui5-table id="productsTable" no-data-text="No Data" show-no-data>
+            <ui5-table-column slot="columns" style="width: 12rem">
+                <span style="line-height: 1.4rem">Product</span>
+            </ui5-table-column>
+
+            <ui5-table-column slot="columns" min-width="800" popin-text="Supplier">
+                <span style="line-height: 1.4rem">Supplier</span>
+            </ui5-table-column>
+
+            <ui5-table-column slot="columns" min-width="600" popin-text="Dimensions" demand-popin>
+                <span style="line-height: 1.4rem">Dimensions</span>
+            </ui5-table-column>
+
+            <ui5-table-column slot="columns" min-width="600" popin-text="Weight" demand-popin>
+                <span style="line-height: 1.4rem">Weight</span>
+            </ui5-table-column>
+
+            <ui5-table-column slot="columns">
+                <span style="line-height: 1.4rem">Price</span>
+            </ui5-table-column>
+        </ui5-table>
+    </div>
+    <div>
+        <ui5-button design="Emphasized">Populate data</ui5-button>
+    </div>
+    <script type="module" src="./src/index.js"></script>
+</body>
+
+</html>

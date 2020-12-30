@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>UI5 Webcomponents w/o Framework</title>
+    <link rel="stylesheet" href="src/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type='module' src='src/index.js'></script>
+</head>
+
+<body>
+    <ui5-shellbar primary-title="Shopping List">
+        <img slot="logo" src="img/Logo_O_RGB.png" />
+    </ui5-shellbar>
+    <div>
+        <!-- Something to add here later -->
+    </div>
+    <div class="list-shopping-wrapper">
+        <ui5-list id="myList" header-text="What I need to buy" class="full-width">
+            <ui5-li icon="nutrition-activity" description="Tropical plant with an edible fruit" info="In-stock"
+                info-state="Success">Pineapple</ui5-li>
+            <ui5-li icon="nutrition-activity" description="Occurs between red and yellow" info="Expires"
+                info-state="Warning">Orange</ui5-li>
+            <ui5-li icon="nutrition-activity" description="The yellow lengthy fruit" info="Re-stock"
+                info-state="Information">Blueberry</ui5-li>
+            <ui5-li icon="nutrition-activity" description="The tropical stone fruit" info="Re-stock" info-state="Error">
+                Mango</ui5-li>
+        </ui5-list>
+        <ui5-panel accessible-role="Complementary" header-text="Select your country" class="full-width"
+            collapsed="true">
+            <ui5-list id="myList1" mode="MultiSelect">
+                <ui5-li key="country1">Argentina</ui5-li>
+                <ui5-li key="country2">Bulgaria</ui5-li>
+                <ui5-li key="country3">China</ui5-li>
+                <ui5-li key="country4">Germany</ui5-li>
+                <ui5-li key="country5">Hungary</ui5-li>
+                <ui5-li key="country6">England</ui5-li>
+                <ui5-li key="country7">USA</ui5-li>
+                <ui5-li key="country8">Canada</ui5-li>
+            </ui5-list>
+        </ui5-panel>
+    </div>
+
+
+</body>
+
+</html>
