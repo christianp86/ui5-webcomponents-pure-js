@@ -1,0 +1,30 @@
+{
+  "name": "ui5-webcomponents-wo-frk-part2",
+  "version": "1.0.0",
+  "description": "Using UI5 Web Components without any framework",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "wds --node-resolve --watch --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianp86/ui5-webcomponents-pure-js.git"
+  },
+  "keywords": [
+    "openui5",
+    "webcomponents",
+    "sap"
+  ],
+  "author": "Christian Pfisterer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christianp86/ui5-webcomponents-pure-js/issues"
+  },
+  "homepage": "https://github.com/christianp86/ui5-webcomponents-pure-js#readme",
+  "dependencies": {
+    "@ui5/webcomponents": "^1.0.0-rc.11"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.3"
+  }
+}
