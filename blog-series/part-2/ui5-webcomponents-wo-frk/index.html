@@ -14,29 +14,29 @@
                 <span style="line-height: 1.4rem">Product</span>
             </ui5-table-column>
 
-            <ui5-table-column slot="columns" min-width="800" popin-text="Supplier">
+            <ui5-table-column slot="columns" popin-text="Supplier">
                 <span style="line-height: 1.4rem">Supplier</span>
             </ui5-table-column>
 
-            <ui5-table-column slot="columns" min-width="600" popin-text="Dimensions" demand-popin>
+            <ui5-table-column slot="columns" popin-text="Dimensions" demand-popin>
                 <span style="line-height: 1.4rem">Quantity per unit</span>
             </ui5-table-column>
 
-            <ui5-table-column slot="columns" min-width="600" popin-text="Weight" demand-popin>
-                <span style="line-height: 1.4rem">Weight</span>
+            <ui5-table-column slot="columns" popin-text="Price" demand-popin>
+                <span style="line-height: 1.4rem">Price per unit</span>
             </ui5-table-column>
 
-            <ui5-table-column slot="columns">
-                <span style="line-height: 1.4rem">Price</span>
+            <ui5-table-column slot="columns" popin-text="In stock" demand-popin>
+                <span style="line-height: 1.4rem">In stock</span>
             </ui5-table-column>
 
             <template id="productrow">
                 <ui5-table-row>
                     <ui5-table-cell data-attribute="ProductName"></ui5-table-cell>
-                    <ui5-table-cell data-attribute="Supplier"></ui5-table-cell>
+                    <ui5-table-cell data-attribute="Supplier.CompanyName"></ui5-table-cell>
                     <ui5-table-cell data-attribute="QuantityPerUnit"></ui5-table-cell>
                     <ui5-table-cell data-attribute="UnitPrice"></ui5-table-cell>
-                    <ui5-table-cell data-attribure="UnitsInStock"></ui5-table-cell>
+                    <ui5-table-cell data-attribute="UnitsInStock"></ui5-table-cell>
                 </ui5-table-row>
             </template>
             

@@ -7,10 +7,11 @@ import "@ui5/webcomponents/dist/TableCell.js";
 
 const ui5Button = document.querySelector('ui5-button')
 
-ui5Button.addEventListener('click', addData)
+ui5Button.addEventListener('click', addProductDataInTable)
 
-async function addData() {
-    const response = await fetch('https://services.odata.org/V4/Northwind/Northwind.svc/Products')
+/** Displays product data in HTML table */
+async function addProductDataInTable() {
+    const response = await fetch('https://services.odata.org/V4/Northwind/Northwind.svc/Products?$expand=Supplier')
     const products = await response.json()
 
     const table = document.querySelector('ui5-table')
@@ -22,10 +23,22 @@ async function addData() {
         const tableCells = clone.querySelectorAll('ui5-table-cell')
 
         for (const cell of tableCells) {
-            cell.innerHTML = product[cell.dataset.attribute]
+            const value = getNestedObjectProp(product, cell.dataset.attribute)
+            cell.innerHTML = value
         }
         table.append(clone)
     });
+}
+
+/**
+ * Returns any property within a nested object
+ * @param {Object} object - An object with nested properties
+ * @param {string} path - Path to property in . notation e.g. 'foo', 'foo.bar', 'foo.bar.baz',...
+ */
+const getNestedObjectProp = (object, path) => {
+    const pathArr = path.split('.')
+    return pathArr.reduce((obj, key) =>
+        (obj && obj[key] !== 'undefined') ? obj[key] : undefined, object);
 }
 
 
