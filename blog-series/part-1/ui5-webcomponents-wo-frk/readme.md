@@ -320,7 +320,7 @@ Ok let's see if our button does what we hope it will do
 **YAAAAYYYY** it actually works :sparkles: :relieved:
 
 Of course this code is not perfect (we do not catch any potential errors, we can click the button multiple times, ...) but it works for now.
-I am quite happy with the result but there is always way for improvement. We create HTML elements using JavaScript and if we would add more logic we might end up in a mess. (Peter Muessig pointed that outand provided some tips how to improve the app. Thx again Peter :wink:)
+I am quite happy with the result but there is always way for improvement. We create HTML elements using JavaScript and if we would add more logic we might end up in a mess. (Peter Muessig pointed that out and provided some tips how to improve the app. Thx again Peter :wink:)
 
 Let's quickly summarize what we learned on our little journey with UI5 Web Components
  * How to install UI5 Web Components
